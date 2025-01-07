@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:black
+}
+header {
+  text-align: center;
+  padding: 50px 0;
+  background: 
+  url('https://cdni.iconscout.com/illustration/premium/thumb/developers-writing-code-to-develop-software-illustration-download-in-svg-png-gif-file-formats--programming-engineer-web-developer-development-pack-design-illustrations-3455058.png'),
+  url("https://cdni.iconscout.com/illustration/premium/thumb/female-web-developer-developing-website-illustration-download-in-svg-png-gif-file-formats--employee-freelancing-freelancer-working-on-laptop-development-pack-design-illustrations-5515521.png?f=webp") no-repeat right bottom / contain,
+  url("https://cdni.iconscout.com/illustration/premium/thumb/programmer-illustration-download-in-svg-png-gif-file-formats--html-logo-development-developer-coding-business-pack-people-illustrations-5624394.png?f=webp")no-repeat left bottom / contain,
+  radial-gradient(circle, green, black);
+  background-size:inherit, contain, contain;
+  background-position: center, right bottom, left bottom;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 40vh;
+  overflow: hidden;
+}
+#tituloHeader {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 0;
+  -webkit-text-stroke: 0.5px white;
+}
+#tituloHeader2{
+  font-size: 50px;
+  color: black;
+  margin-top: 0;
+  -webkit-text-stroke: 0.5px white;
+}
+.fsd {
+  color: #fff;
+  font-size: 4em;
+  margin: 0;
+  margin-top: 10px;
+  text-shadow: 2px 2px 2px green;
+}
+h2{
+  color: #fff;
+}
+p{
+  color: white;
+}
+#botoncito{
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: green;
+  color: black;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+}
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: black;
+  color: green;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+}
+
+section#form {
+  background: radial-gradient(black, green);
+}
+
+form {
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: left;
+  margin-bottom: 100px;
+  color: white;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+form button {
+  width: 50%;
+  margin-left: 25%;
+}
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
